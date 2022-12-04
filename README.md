@@ -1,10 +1,6 @@
 # alfobre.com
 
-Património + Tecnologia
-
-Heritage + Technology
+Património + Tecnologia | Heritage + Technology
 
 
-Contactos
-
-projeto.alfobre@gmail.com
+Contacto | Contact  projeto.alfobre@gmail.com
