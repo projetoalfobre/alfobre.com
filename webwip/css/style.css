@@ -226,7 +226,7 @@ transition: box-shadow .25s, -webkit-box-shadow .25s;
 .link-img-card img {width: 100%; z-index: 100; transition: all .5s ease-in-out;}
 .link-img-card-title {margin-top: 1em; color:rgba(0,0,0,0.87); font-size: 1em;font-weight: 700; width: 90%; text-transform: uppercase; }
 
-#sobre-nos, #quem-somos, #tecnologias, #mediacao, #formacao, #projetos, #contactos{padding-top: 5em;}
+#sobre-nos, #quem-somos, #servicos, #mediacao, #formacao, #projetos, #contactos{padding-top: 5em;}
 
 .section-title {margin-bottom: 1em;}
 

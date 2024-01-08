@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="alfobre4.svg"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs28">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 16 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="32 : 16 : 1"
+       inkscape:persp3d-origin="16 : 10.666667 : 1"
+       id="perspective141" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     id="namedview26"
+     showgrid="false"
+     inkscape:zoom="0.27087674"
+     inkscape:cx="694.04261"
+     inkscape:cy="210.42781"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24"
+     showguides="false"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="icomoon-ignore" />
+  <g
+     id="g113"
+     transform="translate(42.084616,-17.236915)">
+    <g
+       id="icomoon-ignore-2" />
+  </g>
+  <g
+     id="g139"
+     transform="matrix(0.49386292,0,0,0.49386292,11.785127,2.3360936)">
+    <g
+       id="icomoon-ignore-25" />
+  </g>
+  <g
+     id="g697"
+     transform="translate(0,-1.2384084)">
+    <path
+       id="path127"
+       d="M 17.067,16.693 C 17.067,9.546 12.267,4.32 8.534,0 4.801,4.32 0.001,9.547 0.001,16.693 c 0,6.72 4.96,8.48 8,9.44 V 32 h 1.067 v -5.867 c 3.04,-0.96 8,-2.72 8,-9.44 z m -8,8.32 v -4.16 l 3.36,-3.36 -0.747,-0.747 -2.613,2.613 V 8.532 H 8 v 5.12 L 5.227,10.879 4.48,11.626 8,15.146 v 9.867 C 5.067,24.053 1.067,22.4 1.067,16.693 c 0,-6.24 3.893,-10.933 7.467,-15.04 3.573,4.107 7.467,8.8 7.467,15.04 0,5.707 -4,7.36 -6.933,8.32 z"
+       inkscape:connector-curvature="0"
+       style="fill:#000000"
+       transform="matrix(0.49386292,0,0,0.49386292,11.785127,2.3360936)" />
+    <g
+       id="g214"
+       transform="matrix(0.58359452,0,0,0.58359452,6.6624877,15.802411)">
+      <g
+         id="icomoon-ignore-1" />
+      <path
+         id="path199"
+         d="M 28.795,4.005 H 3.205 v 6.931 h 1.067 v 17.06 h 23.457 v -17.06 h 1.066 z M 26.663,26.929 H 5.339 V 10.935 H 26.663 Z M 27.729,9.869 H 4.272 V 5.071 h 23.457 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </g>
+  </g>
+  <g
+     style="fill:#000000"
+     id="icomoon-ignore-3-9"
+     transform="translate(175.19038,-39.087607)" />
+</svg>
