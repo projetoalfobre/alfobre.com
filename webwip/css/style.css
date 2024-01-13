@@ -222,7 +222,7 @@ transition: -webkit-box-shadow .25s;
 transition: box-shadow .25s;
 transition: box-shadow .25s, -webkit-box-shadow .25s;
 }
-.link-img-card img:hover {transform: scale(1.2,1.2);}
+.link-img-card img:hover {transform: scale(1.1);}
 .link-img-card img {width: 100%; z-index: 100; transition: all .5s ease-in-out;}
 .link-img-card-title {margin-top: 1em; color:rgba(0,0,0,0.87); font-size: 1em;font-weight: 700; width: 90%; text-transform: uppercase; }
 
