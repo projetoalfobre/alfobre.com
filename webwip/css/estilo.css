@@ -22,9 +22,12 @@
   direction: ltr;
 }
 
-
 .techimg{opacity: 0.5}
-
 .techimg:hover{opacity: 1}
 
 strong{font-weight: 600 !important;}
+
+.border-top-round {border-top-right-radius: 8px;border-top-left-radius:8px;}
+.border-bottom-round {border-bottom-right-radius: 8px;border-bottom-left-radius:8px;}
+  
+

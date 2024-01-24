@@ -7575,7 +7575,7 @@ $jscomp.polyfill = function (e, r, p, m) {
         $cardReveal.css({ display: 'block' });
         anim({
           targets: $cardReveal[0],
-          translateY: '-100%',
+          translateY: '-101%',
           duration: 300,
           easing: 'easeInOutQuad'
         });
