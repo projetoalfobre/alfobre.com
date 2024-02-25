@@ -1,0 +1,48 @@
+.margemabaixo {margin-bottom: 2em;}
+.margemabaixomaior {margin-bottom: 5em;}
+
+.card p {margin-top: 0px;}
+
+.modal-closing{float: right;}
+.modal-closing a{padding: 0 6px;}
+.modal-closing i{font-size: 2em;}
+
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.techimg{opacity: 0.5}
+.techimg:hover{opacity: 1}
+
+strong{font-weight: 600 !important;}
+
+.border-top-round {border-top-right-radius: 8px;border-top-left-radius:8px;}
+.border-bottom-round {border-bottom-right-radius: 8px;border-bottom-left-radius:8px;}
+  
+
+img.responsiveimg
+{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2em;;
+}
+
+
+.link-img-card img {
+ 
+}
+
+.link-img-card img:hover {
+ 
+}
