@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+	<script src="js/glowCookies.js"></script>
+
+	<script>
+		glowCookies.start('en', {
+			style: 3,
+			analytics: 'G-HW8LJG8CGG',
+			policyLink: 'privacy.html',
+			hideAfterClick: 'true',
+			acceptBtnBackground: '#4caae1',
+			bannerDescription: 'Alfobre website uses cookies to help us analyze web traffic. This happens only if you click on the "Accept cookies" button.</br>'
+		});
+	</script>
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Alfobre | Projetos de Património</title>
@@ -12,23 +25,26 @@
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/estilo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <link href="css/glowCookies.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 </head>
 
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HW8LJG8CGG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HW8LJG8CGG');
-</script>
-
-
 <body id="top">
+
+  <!-- Modal Structure -->
+ <div id="privacymodal" class="modal">
+   <div class="modal-content">
+     <h4>Modal Header</h4>
+     <p>A bunch of text</p>
+   </div>
+   <div class="modal-footer">
+     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+   </div>
+ </div>
+
+
 
 <header>
   <div class="navbar-fisxed">

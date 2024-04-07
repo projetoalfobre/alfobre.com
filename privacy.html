@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Alfobre | Privacy Policy</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.svg">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,500,600,700,900" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/estilo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+</head>
+
+
+<body id="top">
+
+<header>
+  <nav class="nonTopNav" role="navigation">
+    <div class="nav-wrapper container ">
+      <a id="logo-container" href="#top" class="brand-logo white-text"><img src="img/logo/logo_alfobre.svg" style="width: 60%;"></a>
+
+    </div>
+      
+  </nav>
+</header>
+
+<main>
+
+
+<!-- sobre -->
+  <section  id="sobre-nos">
+    <div class="container">
+      <div class="section">
+
+        <div class="row">
+          <div class="col s12">
+            <h2 class="section-title">Privacy Policy</h2>
+
+            <h4>How we process your data</h4>
+            <p>This website is hosted on GitHub and uses Google Analytics to analyze our website traffic.</p>
+            
+            
+            <h4>Google Analytics</h4>
+            <p>This website uses Google Analytics to analyze our website traffic, and to understand where our visitors are coming from. 
+              However, this happens only if you approve third party cookies and scripts by clicking on the "Accept cookies" button.</p>
+            
+            <p>We use Google Analytics to collect anonymous statistics about your visit, like which of our pages you viewed, but we’ll never share it with others.</p>
+            
+            <p>To the best of our kowledge, we are GDPR compliant and configured Google Analytics to limit the power of Google.</p>
+            
+            
+          </div>
+
+        </div>
+
+ 
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!-- fim do sobre -->
+
+
+</main>
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light"></h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/cards/background_7.jpg" alt="Roman capitel"></div>
+</div>
+
+  <footer class="" >
+    <div class="container">
+      <div class="row">
+        <div class="col s6">
+
+        </div>
+        <div class="col s6 right-align">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container center-align">2024 | Alfobre.com</div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+    <script src="js/init.js"></script>
+
+
+
+  <script>
+   var cavalinhoReveal = {
+    origin  : 'left',
+    delay    : 400,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
+
+   var raposinhaReveal = {
+    origin  : 'left',
+    delay    : 300,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
+
+   var mamuteReveal = {
+    origin  : 'right',
+    delay    : 200,
+    reset    : true,
+    easing   : 'ease-in-out',
+    scale    : .1
+   };
+
+   window.sr = ScrollReveal()
+     .reveal( '.cavalinho', cavalinhoReveal )
+     .reveal( '.mamute', mamuteReveal )
+     .reveal( '.raposinha', raposinhaReveal );
+</script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+
+  </body>
+</html>
