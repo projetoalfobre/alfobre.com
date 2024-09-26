@@ -46,3 +46,8 @@ img.responsiveimg
 .link-img-card img:hover {
  
 }
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+   margin-right: 10px !important;
+ 
+}
