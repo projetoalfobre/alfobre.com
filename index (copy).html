@@ -1,97 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
 
   <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.8/src/glowCookies.min.js"></script>
-  <script>
-      glowCookies.start('en', {
-          style: 3,
-          analytics: 'G-HW8LJG8CGG',
-          hideAfterClick: 'true',
-          acceptBtnBackground: '#4caae1',
-          policyLink: '../privacy.html',
-          bannerDescription: 'We use third-party cookies to count visits and to analyze web traffic. However, this happens only if you click on the "Accept cookies" button.</br>'
-      });
-  </script>
-
+<script>
+    glowCookies.start('pt_BR', {
+        style: 3,
+        analytics: 'G-HW8LJG8CGG',
+        hideAfterClick: 'true',
+        acceptBtnBackground: '#4caae1',
+        policyLink: 'privacy.html',
+        bannerDescription: 'Usamos cookies de terceiros para contabilizar visitas e analisar navegação no website. No entanto, isto só acontece se clicar no botão "Aceitar cookies".</br>'
+    });
+</script>
 
 <meta charset="UTF-8">
-<title>Alfobre | Heritage + Technology + Community</title>
-<meta name="description" content="Alfobre.com Homepage - digital strategies and products for Cultural Heritage.">
+<title>Alfobre | Património + Tecnologia + Comunidade</title>
+<meta name="description" content="Página oficial de Alfobre.com - estratégias e produtos digitais ao serviço do Património Cultural.">
 <meta name="keywords" content="Map, Mapping, Cartography, QGIS, GIS, HGIS, Webmap, 3D, Threed, Blender, Animation, Cinema, Movie, Education, School, Training, Photogrammetry, Storymaps, 3D model, 360, Virtual Reality, VR, AR, WebXR">
 <meta name="author" content="nafergo (Alfobre.com), nafergo@gmail.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" type="image/x-icon" href="../favicon.ico">
-<link rel="icon" type="image/png" sizes="48x48" href="../image48x48.png">
-<link rel="icon" type="image/svg+xml" href="../favicon.svg">
-<link rel="apple-touch-icon" href="../apple-touch-icon192x192.png">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="48x48" href="image48x48.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon192x192.png">
 
 <meta name="designer" content="Nelson A. F. Gonçalves (aka nafergo)">
 <meta name="owner" content="Alfobre.com">
 <meta name="contact" content="nafergo@gmail.com">
 <meta name="copyright" content="Alfobre.com">
-<meta name="language" content="EN">
+<meta name="language" content="PT">
 <meta name="robots" content="index,follow" />
-<meta name="url" content="https://alfobre.com/en/">
-<meta name="identifier-URL" content="https://alfobre.com/en/">
+<meta name="url" content="https://alfobre.com/">
+<meta name="identifier-URL" content="https://alfobre.com/">
 <meta name="date" content="Sep. 18, 2024">
 
-<link rel="canonical" href="https://alfobre.com/en/">
+<link rel="canonical" href="https://alfobre.com/">
 
-<meta property="og:title" content="Alfobre | Heritage + Technology + Community" />
+<meta property="og:title" content="Alfobre | Património + Tecnologia + Comunidade" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://alfobre.com/en/" />
-<meta property="og:description" content="Alfobre.com Homepage - digital strategies and products for Cultural Heritage." />
-<meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="Alfobre | Heritage + Technology + Communitye" />
+<meta property="og:url" content="https://alfobre.com/" />
+<meta property="og:description" content="Página oficial de Alfobre.com - estratégias e produtos digitais ao serviço do Património Cultural." />
+<meta property="og:locale" content="pt_PT" />
+<meta property="og:site_name" content="Alfobre | Património + Tecnologia + Comunidade" />
 <meta property="og:image" content="https://alfobre.com/ogimage.jpg" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Alfobre.com logo" />
+<meta property="og:image:alt" content="Logótipo de Alfobre.com" />
+
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,500,600,700,900" rel="stylesheet">
-  <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../css/estilo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/estilo.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 </head>
 
-
 <body id="top">
+
+  <!-- Modal Structure -->
+ <div id="privacymodal" class="modal">
+   <div class="modal-content">
+     <h4>Modal Header</h4>
+     <p>A bunch of text</p>
+   </div>
+   <div class="modal-footer">
+     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+   </div>
+ </div>
+
+
 
 <header>
   <div class="navbar-fisxed">
   <nav class="" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#top" class="brand-logo white-text"><img src="../img/logo/logo_alfobre.svg" style="width: 60%;"></a>
+      <a id="logo-container" href="#top" class="brand-logo white-text"><img src="img/logo/logo_alfobre.svg" style="width: 60%;"></a>
 
       <ul class="right hide-on-med-and-down">
-        <li><a href="#sobre-nos">About us</a></li>
-        <li><a href="#servicos">Services</a></li>
-        <li><a href="#formacao">Training</a></li>
-        <li><a href="#projetos">Projects</a></li>
-        <li><a href="#contactos">Contacts</a></li>
+        <li><a href="#sobre-nos">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contactos">Contactos</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#sobre-nos">About us</a></li>
-        <li><a href="#servicos">Services</a></li>
-        <li><a href="#formacao">Training</a></li>
-        <li><a href="#projetos">Projects</a></li>
-        <li><a href="#contactos">Contacts</a></li>
+        <li><a href="#sobre-nos">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contactos">Contactos</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
     </div>
 
     <ul id="language_menu">
-        <li><a href="../">PT</a></li>
-        <li><a href="#">EN</a></li>
+        <li><a href="#">PT</a></li>
+        <li><a href="/en/">EN</a></li>
       </ul>
       
   </nav>
@@ -104,9 +116,9 @@
       <div class="container">
         <div class="row">
           <div class="col s8">
-      <h1 class="white-text">Alfobre (pt for seedbed)</h1>
-      <p class="white-text flow-text">1. nursery for hydrangea plants to transplant</p>
-      <h4 class="white-text">2. <i>figurative</i> place where a large number of things or beings of a certain type are created, produced or developed</h4>
+      <h1 class="white-text">Alfobre</h1>
+      <p class="white-text flow-text">1. viveiro de plantas hortenses para transplantar</p>
+      <h4 class="white-text">2. <i>figurado</i> lugar onde se cria, produz ou desenvolve grande quantidade de coisas ou seres de certo tipo</h4>
           </div>
     </div>
     </div>
@@ -119,46 +131,46 @@
 
         <div class="row">
           <div class="col s12">
-            <h2 class="section-title">About us</h2>
+            <h2 class="section-title">Sobre nós</h2>
           </div>
           <div class="col s12 m6 l6">
-                <p class="flow-text"><span class="thick">Alfobre</span> is a project incubator focused on crafting strategies and digital products in the Cultural Heritage field.</p>
-                <p class="flow-text">Working with our partners and customers, we design solutions for Heritage documentation, dissemination and mediation based on Free and Open Source Software.</p>
+                <p class="flow-text">O <span class="thick">Alfobre</span> é um viveiro de projetos dedicado à criação de estratégias e produtos digitais ao serviço do Património Cultural.</p>
+                <p class="flow-text">Com os nossos parceiros e clientes, encontramos soluções para registo, documentação, divulgação e mediação de Património, dando preferência à utilização de Software Livre e Open Source.</p>
           </div>
 
           <div class="col right hide-on-small-only m6 l6" style="padding-top: 0.5em;">
-            <p class="col right m10 l10 xl8"><img src="../img/sobre.jpg" class="z-depth-2 responsive-img round-image" alt=""></p>
+            <p class="col right m10 l10 xl8"><img src="img/sobre.jpg" class="z-depth-2 responsive-img round-image" alt=""></p>
           </div>
           <div class="col s12 hide-on-med-and-up">
-            <p class="center"><img src="../img/sobre.jpg" class="z-depth-2 round-image" style="width: 80%;height: auto;"></p>
+            <p class="center"><img src="img/sobre.jpg" class="z-depth-2 round-image" style="width: 80%;height: auto;"></p>
           </div> 
         </div>
 
         <div class="row" style="margin-top:5em;">
           <div class="col s12  m12 l4">
             <div class="col s10 offset-s1">
-              <p class="center"><img src="../img/icons/alfobre-tech-icon.svg" class="" style="width: 80px;height: 80px; opacity:0.5;"></p>
+              <p class="center"><img src="img/icons/alfobre-tech-icon.svg" class="" style="width: 80px;height: 80px; opacity:0.5;"></p>
               <h4 class="center">Digital</h4>
               <p class="light">
-                Using and developing digital strategies and technologies that facilitate access, participation, reuse, and collaboration.
+                Utilizar e desenvolver estratégias e tecnologias digitais que facilitem o acesso, a participação, a reutilização e a colaboração.
               </p>
           </div>
         </div>
         <div class="col s12  m12 l4">
             <div class="col s10 offset-s1">
-              <p class="center"><img src="../img/icons/alfobre-heritage-icon.svg" class="" style="width: 80px;height: 80px; opacity:0.5;"></p>
-              <h4 class="center">Heritage</h4>
+              <p class="center"><img src="img/icons/alfobre-heritage-icon.svg" class="" style="width: 80px;height: 80px; opacity:0.5;"></p>
+              <h4 class="center">Património</h4>
               <p class="flw-text">
-                Mediating and disseminating Heritage, both material and intangible, by integrating diverse perspectives and contributions.
+                Mediar e divulgar o Património, material e imaterial, agregando perspetivas e contributos diversificados.
               </p>
           </div>
           </div>
           <div class="col s12 m12 l4">
             <div class="col s10 offset-s1">
-              <p class="center"><img src="../img/icons/alfobre-people-icon.svg" class="" style="width: 80px;height: 80px; opacity:0.5;"></p>
-              <h4 class="center">Community</h4>
+              <p class="center"><img src="img/icons/alfobre-people-icon.svg" class="" style="width: 80px;height: 80px; opacity:0.5;"></p>
+              <h4 class="center">Comunidade</h4>
               <p class="light">
-                Engaging and empowering communities in the discovery, revitalization, preservation, and enjoyment of Heritage.
+                Envolver e capacitar públicos e comunidades na descoberta, dinamização, salvaguarda e fruição do Património.
               </p>
             </div>
             </div>
@@ -177,7 +189,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="../img/cards/background_3.jpg" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="img/cards/background_3.jpg" alt="Unsplashed background img 2"></div>
 </div>
 
 <!-- tecnologias -->
@@ -186,7 +198,7 @@
     <div class="section">
       <div class="row">
         <div class="col s12">
-          <h2 class="section-title">Services e products</h2>
+          <h2 class="section-title">Serviços e produtos</h2>
         </div>
       </div>
 
@@ -198,35 +210,32 @@
           <!-- Modal Trigger -->
           <a class="waves-effect waves-light modal-trigger" href="#modelacao3d">
             <div class="link-img-card">
-              <img class="" src="../img/servicos/modelacao3d/cover.jpg" />
+              <img class="" src="img/servicos/modelacao3d/cover.jpg" />
             </div>
             <div class="">
-                  <span class="link-img-card-title truncate">3D Models</span>
+                  <span class="link-img-card-title truncate">Modelos 3D</span>
             </div>
           </a>
           <!-- Modal Structure -->
-          <div id="modelacao3d" class="modal modal-large border-top-round border-bottom-round">
+          <div id="modelacao3d" class="modal modal-large">
             <div class="modal-closing">
               <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
             </div>
             <div class="modal-content">
               <div class="col s12">
-                <h4>3D Models</h4>
+                <h4>Modelos 3D</h4>
               </div>
-              <div class="col s12 m7 l6">
-                <p>Creation of 3D models of <strong>objects</strong> and <strong>sites or places</strong>, including archaeological sites or monuments. 
-                  Models can be original, replicas or reconstructions of non-existent or partially existent specimens.</p>
-                  <p>We use various techniques, such as <strong>photogrammetry scanning</strong>, <strong>polygonal modeling</strong> and <strong>digital sculpting</strong>,
-                     adapting the services to the proposed projects.</p>
-                <p>Click <a href="mailto: projeto.alfobre@gmail.com">here</a> to contact us about this service.</p>
+              <div class="col s12 l6">
+                <p>Criação de modelos 3D de <strong>objetos, sítios arqueológicos ou monumentos</strong>, incluindo réplicas ou reconstrução de exemplares inexistentes ou parcialmente inexistentes, através de <strong>digitalização por fotogrametria</strong> e <strong>modelação tridimensional</strong>.</p>
+                <p>Clique <a href="mailto: projeto.alfobre@gmail.com">aqui</a> para falar connosco sobre estes serviços.</p>
               </div>
-              <div class="col s12 m5 l5 offset-l1 right">
-                <img class="responsive-img border-top-round border-bottom-round" src="../img/servicos/modelacao3d/1.jpg"/> 
+              <div class="col s12 l6 right">
+                <img class="right modalfix responsive-img border-top-round border-bottom-round" src="img/servicos/modelacao3d/1.jpg"/> 
               </div>                
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-          </div>            
+	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
           </div>
   </div>
 </div>
@@ -238,32 +247,32 @@
           <!-- Modal Trigger -->
           <a class="waves-effect waves-light modal-trigger" href="#visitas-virtuais">
             <div class="link-img-card">
-              <img class="" src="../img/servicos/visitas-virtuais/cover.jpg" />
+              <img class="" src="img/servicos/visitas-virtuais/cover.jpg" />
             </div>
             <div class="">
-                  <span class="link-img-card-title truncate">Virtual Tours</span>
+                  <span class="link-img-card-title truncate">Visitas Virtuais</span>
             </div>
           </a>
           <!-- Modal Structure -->
-          <div id="visitas-virtuais" class="modal modal-large border-top-round border-bottom-round">
+          <div id="visitas-virtuais" class="modal modal-large">
             <div class="modal-closing">
               <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
             </div>
             <div class="modal-content">
               <div class="col s12">
-                <h4>Virtual Tours</h4>
+                <h4>Visitas Virtuais</h4>
               </div>
-              <div class="col s12 m7 l6">
-                <p>Development of mediated and immersive visits to <strong>archaeological sites, monuments, or museums</strong>, through navigation among <strong>360º photographs</strong>, including aerial views, with interactive exploration of <strong>multimedia content</strong> (texts, photographs, infographics, illustrations, 3D models, video, audio, games, etc.).</p>
-                <p>Click <a href="mailto: projeto.alfobre@gmail.com">here</a> to contact us about this service.</p>
+              <div class="col s12 l6">
+                <p>Desenvolvimento de experiências de visita mediada e imersiva a <strong>sítios arqueológicos, monumentos ou museus</strong>, através de navegação entre <strong>fotografias 360º</strong>, incluindo vistas aéreas, com exploração interativa de <strong>elementos multimédia</strong> (textos, fotografias, infografias, ilustrações, modelos 3D, vídeo, áudio, jogos, etc.).</p>
+                <p>Clique <a href="mailto: projeto.alfobre@gmail.com">aqui</a> para falar connosco sobre estes serviços.</p>
               </div>
-              <div class="col s12 m5 l5 offset-l1 right">
-                <img class="responsive-img border-top-round border-bottom-round" src="../img/servicos/visitas-virtuais/1.jpg"/>
+              <div class="col s12 l6 right">
+                <img class="right modalfix responsive-img border-top-round border-bottom-round" src="img/servicos/visitas-virtuais/1.jpg"/>
               </div>                
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-          </div>            
+		  	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
           </div>
   </div>
 </div>
@@ -275,33 +284,33 @@
           <!-- Modal Trigger -->
           <a class="waves-effect waves-light modal-trigger" href="#cartografia">
             <div class="link-img-card">
-              <img class="" src="../img/servicos/cartografia/cover.jpg" />
+              <img class="" src="img/servicos/cartografia/cover.jpg" />
             </div>
             <div class="">
-                  <span class="link-img-card-title truncate">Cartography & GIS</span>
+                  <span class="link-img-card-title truncate">Cartografia e SIG</span>
             </div>
           </a>
           <!-- Modal Structure -->
-          <div id="cartografia" class="modal modal-large border-top-round border-bottom-round">
+          <div id="cartografia" class="modal modal-large">
             <div class="modal-closing">
               <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
             </div>
             <div class="modal-content">
               <div class="col s12">
-                <h4>Cartography & GIS</h4>
+                <h4>Cartografia e SIG</h4>
               </div>
-              <div class="col s12 m7 l6">
-                <p>We craft <strong>thematic and topographic maps</strong> for printing, web, and mobile platforms.</p>
-                <p>Customized <strong>geodata creation, collection, processing and organization</strong> tailored to the requested preferences and needs, with a special focus on open data, including OpenStreetMap, public agencies and the private sector.</p>
-                <p>Click <a href="mailto: projeto.alfobre@gmail.com">here</a> to contact us about this service.</p>
+              <div class="col s12 l6">
+                <p>Criação de <strong>mapas temáticos</strong> e <strong>mapas topográficos</strong>, para impressão, plataformas web e mobile.</p>
+                <p>Serviços personalizados de <strong>criação, recolha, processamento e organização de geodados</strong>, adaptados às preferências e necessidades apresentadas, com foco especial em fontes de dados abertos (Open Data), incluindo OpenStreetMap, organismos públicos e setor privado.</p>
+                <p>Clique <a href="mailto: projeto.alfobre@gmail.com">aqui</a> para falar connosco sobre estes serviços.</p>
               </div>
-              <div class="col s12 m5 l5 offset-l1 right">
-                <img class="responsive-img border-top-round border-bottom-round" src="../img/servicos/cartografia/1.jpg"/>
+              <div class="col s12 l6">
+                <img class="right modalfix responsive-img border-top-round border-bottom-round" src="img/servicos/cartografia/1.jpg"/>
               </div>                
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-          </div>            
+		  	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
           </div>
   </div>
 </div>
@@ -313,34 +322,32 @@
           <!-- Modal Trigger -->
           <a class="waves-effect waves-light modal-trigger" href="#animacao">
             <div class="link-img-card">
-              <img class="" src="../img/servicos/animacao/cover.jpg" />
+              <img class="" src="img/servicos/animacao/cover.jpg" />
             </div>
             <div class="">
-                  <span class="link-img-card-title truncate">Animation</span>
+                  <span class="link-img-card-title truncate">Animação</span>
             </div>
           </a>
           <!-- Modal Structure -->
-          <div id="animacao" class="modal modal-large border-top-round border-bottom-round">
+          <div id="animacao" class="modal modal-large">
             <div class="modal-closing">
               <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
             </div>
             <div class="modal-content">
               <div class="col s12">
-                <h4>Animation</h4>
+                <h4>Animação</h4>
               </div>
-              <div class="col s12 m7 l6">
-                <p>Creation of <strong>2D and 3D animation</strong> movies for storytelling and present complex concepts in an accessible and creative way.</p>
-                <p>Digital animation production, using <strong>different visual styles and techniques</strong>, for 
-                  educational purposes, scientific communication, promotion, raise awareness, architectural and product visualization.</p>
-                <p>Click <a href="mailto: projeto.alfobre@gmail.com">here</a> to contact us about this service.</p>
+              <div class="col s12 l6">
+                <p>Produção de filmes de <strong>animação 2D e 3D</strong>, recorrendo a diferentes estilos visuais e técnicas, para contar histórias e apresentar conceitos complexos de forma acessível e criativa.</p>
+                <p>Clique <a href="mailto: projeto.alfobre@gmail.com">aqui</a> para falar connosco sobre estes serviços.</p>
               </div>
-              <div class="col s12 m5 l5 offset-l1 right">
-                <img class="responsive-img border-top-round border-bottom-round" src="../img/servicos/animacao/1.jpg"/>
+              <div class="col s12 l6">
+                <img class="right modalfix responsive-img border-top-round border-bottom-round" src="img/servicos/animacao/1.jpg"/>
               </div>                
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-          </div>            
+		  	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
           </div>
   </div>
 </div>
@@ -352,32 +359,32 @@
           <!-- Modal Trigger -->
           <a class="waves-effect waves-light modal-trigger" href="#infografia">
             <div class="link-img-card">
-              <img class="" src="../img/servicos/vrar/cover.jpg" />
+              <img class="" src="img/servicos/vrar/cover.jpg" />
             </div>
             <div class="">
-                  <span class="link-img-card-title truncat">Virtual Reality & Augmented Reality</span>
+                  <span class="link-img-card-title truncat">Realidade Virtual e Realidade Aumentada</span>
             </div>
           </a>
           <!-- Modal Structure -->
-          <div id="infografia" class="modal modal-large border-top-round border-bottom-round">
+          <div id="infografia" class="modal modal-large">
             <div class="modal-closing">
               <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
             </div>
             <div class="modal-content">
               <div class="col s12">
-                <h4>Virtual Reality & Augmented Reality</h4>
+                <h4>Realidade Virtual e Realidade Aumentada</h4>
               </div>
-              <div class="col s12 m7 l6">
-                <p>Design and development of immersive and interactive <strong>Virtual Reality (VR)</strong> and <strong>Augmented Reality (AR)</strong> experiences that promote engagement and interaction with Cultural Heritage. The developed solutions always seek the highest possible involvement, dissemination, and longevity.</p>
-                <p>Click <a href="mailto: projeto.alfobre@gmail.com">here</a> to contact us about this service.</p>
+              <div class="col s12 l6">
+                <p>Design e desenvolvimento de experiências imersivas e interativas de <strong>Realidade Virtual (RV)</strong> e <strong>Realidade Aumentada (RA)</strong> que promovem a participação e o envolvimento com o Património Cultural. As soluções desenvolvidas procuram sempre o maior envolvimento, disseminação e longevidade possíveis.</p>
+                <p>Clique <a href="mailto: projeto.alfobre@gmail.com">aqui</a> para falar connosco sobre estes serviços.</p>
               </div>
-              <div class="col s12 m5 l5 offset-l1 right">
-                <img class="responsive-img border-top-round border-bottom-round" src="../img/servicos/vrar/1.jpg"/>
+              <div class="col s12 l6">
+                <img class="right modalfix responsive-img border-top-round border-bottom-round" src="img/servicos/vrar/1.jpg"/>
               </div>                
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-          </div>            
+		  	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
           </div>
   </div>
 </div>
@@ -389,33 +396,33 @@
           <!-- Modal Trigger -->
           <a class="waves-effect waves-light modal-trigger" href="#modal-projetos-integrados">
             <div class="link-img-card">
-              <img class="" src="../img/servicos/projetos/cover.jpg" />
+              <img class="" src="img/servicos/projetos/cover.jpg" />
             </div>
             <div class="">
-                  <span class="link-img-card-title truncate">Tailor-made projects</span>
+                  <span class="link-img-card-title truncate">Projetos integrados</span>
             </div>
           </a>
           <!-- Modal Structure -->
-          <div id="modal-projetos-integrados" class="modal modal-large border-top-round border-bottom-round">
+          <div id="modal-projetos-integrados" class="modal modal-large">
             <div class="modal-closing">
               <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
             </div>
             <div class="modal-content">
               <div class="col s12">
-                <h4>Tailor-made projects</h4>
+                <h4>Projetos integrados</h4>
               </div>
-              <div class="col s12 m7 l6">
-                <p>Tailor-made projects, upon request, developed in close collaboration with promoters and partners, integrating <strong>Digital Technologies, Training, and Mediation activities</strong>.</p> 
-                <p>The <strong>engagement and empowerment of the communities</strong> are common purposes in these projects. Also notable is the emphasis on the appreciation of <strong>open approaches and technologies</strong> (Free and Open Source Software, Open Data, Open Access).</p>
-                <p>Click <a href="mailto: projeto.alfobre@gmail.com">here</a> to contact us about this service.</p>
+              <div class="col s12 l6">
+                <p>Projetos desenhados à medida, sob consulta, desenvolvidos em colaboração próxima com promotores e parceiros, integrando <strong>Tecnologias Digitais, Formação</strong> e <strong>atividades de Mediação</strong>.</p> 
+                <p>O <strong>envolvimento e a capacitação das comunidades</strong> são propósitos comuns nestes projetos, destacando-se ainda a valorização de <strong>abordagens e tecnologias abertas</strong> (Software Livre e Open Source, Dados Abertos, Acesso Aberto).</p>
+                <p>Clique <a href="mailto: projeto.alfobre@gmail.com">aqui</a> para falar connosco sobre este serviço.</p>
               </div>
-              <div class="col s12 m5 l5 offset-l1 right">
-                <img class="responsive-img border-top-round border-bottom-round" src="../img/servicos/projetos/1.jpg"/>
+              <div class="col s12 l6">
+                <img class="right modalfix responsive-img border-top-round border-bottom-round" src="img/servicos/projetos/1.jpg"/>
               </div>                
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-          </div>            
+		  	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
           </div>
   </div>
 </div>
@@ -435,7 +442,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="../img/cards/background_4.jpg" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="img/cards/background_4.jpg" alt="Unsplashed background img 2"></div>
 </div>
 
 <!-- formacao -->
@@ -444,7 +451,7 @@
     <div class="section">
       <div class="row">
         <div class="col s12">
-          <h2 class="section-title">Training</h2>
+          <h2 class="section-title">Formação</h2>
         </div>
       </div>
 
@@ -456,33 +463,39 @@
               <!-- Modal Trigger -->
                 <a class="waves-effect waves-light modal-trigger" href="#modal-formacao-fotogrametria">
                   <div class="link-img-card">
-                    <img class="" src="../img/formacao/fotogrametria/cover.jpg" />
+                    <img class="" src="img/formacao/fotogrametria/cover.jpg" />
                   </div>
                   <div class="">
-                    <span class="link-img-card-title truncate">Photogrammetry</span>
+                    <span class="link-img-card-title truncate">Fotogrametria</span>
                   </div>
                 </a>
               <!-- Modal Structure -->
-                <div id="modal-formacao-fotogrametria" class="modal modal-large border-top-round border-bottom-round">
+                <div id="modal-formacao-fotogrametria" class="modal modal-large">
                   <div class="modal-closing">
                     <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
                   </div>
                   <div class="modal-content">
                     <div class="col s12">
-                      <h4>Photogrammetry</h4>
+                      <h4>Fotogrametria</h4>
                     </div>
-                    <div class="col s12 m7 l6">
-                      <p>Training in the use of <strong>Free and Open Source Software</strong> for close-range <strong>photogrammetry</strong>, including planning, photogrammetric processing, and post-processing.</p>
-                      <p>Training courses and workshops can be <strong>introductory and generalist</strong> or have a <strong>specialized focus</strong> (e.g., drone photogrammetry, photogrammetry with low-cost devices, post-processing and optimization of models, etc.).</p>
-                      <p><a href="mailto: projeto.alfobre@gmail.com">Get in touch with us</a> and let's <strong>design a tailored training course or workshop</strong>.</p>
+                    <div class="col s12 l6">
+                      <p>Formação na utilização de <strong>Software Livre e Open Source</strong> para <strong>fotogrametria</strong> de curta distância (close range), incluindo planeamento, processamento fotogramétrico e pós-processamento.</p>
+                      <p>As ações de formação podem ser de <strong>iniciação e carácter generalista</strong> ou com <strong>enfoque especializado</strong> (ex. fotogrametria com drone, fotogrametria com dispositivos de baixo custo, pós-processamento e otimização de modelos, etc.).</p>
+                      <p><a href="mailto: projeto.alfobre@gmail.com">Contacte-nos</a> para <strong>desenharmos uma ação de formação à medida</strong>.</p>
+<!--
+                      <p>Veja as ações de formação disponíveis ou <a href="mailto: projeto.alfobre@gmail.com">contacte-nos</a> para <strong>desenharmos uma ação de formação à medida</strong>.</p>
+                      <ul>
+                        <li><i class="material-icons">file_download</i> Modelos 3d através de fotogrametria – formação de nível inicial </li>
+                      </ul>
+-->                      
                     </div>
-                    <div class="col s12 m5 l5 offset-l1 right">
-                      <img class="responsive-img border-top-round border-bottom-round" src="../img/formacao/fotogrametria/1.jpg"/>
+                    <div class="col s12 l6">
+                      <img class="right responsive-img border-top-round border-bottom-round" src="img/formacao/fotogrametria/1.jpg"/>
                     </div>                    
                   </div>
-                  <div class="modal-footer">
-                    <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-                </div>                  
+				<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
                 </div>
             </div>
           </div>
@@ -494,33 +507,39 @@
             <!-- Modal Trigger -->
               <a class="waves-effect waves-light modal-trigger" href="#modal-formacao-imagem3d">
                 <div class="link-img-card">
-                  <img class="" src="../img/formacao/imagem3d/cover.jpg" />
+                  <img class="" src="img/formacao/imagem3d/cover.jpg" />
                 </div>
                 <div class="">
-                  <span class="link-img-card-title truncate">3D Imaging</span>
+                  <span class="link-img-card-title truncate">Imagem 3D</span>
                 </div>
               </a>
             <!-- Modal Structure -->
-              <div id="modal-formacao-imagem3d" class="modal modal-large border-top-round border-bottom-round">
+              <div id="modal-formacao-imagem3d" class="modal modal-large">
                 <div class="modal-closing">
                   <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
                 </div>
                 <div class="modal-content">
                   <div class="col s12">
-                    <h4>3D Imaging</h4>
+                    <h4>Imagem 3D</h4>
                   </div>
-                  <div class="col s12 m7 l6">
-                    <p>Training in the use of <strong>Free and Open Source Software</strong> for <strong>3D modeling</strong> and <strong>animation</strong>. Both areas can be considered separately or integrated as modules within a broader course.</p>
-                    <p>Training courses and workshops can be <strong>introductory and generalist</strong> or have a <strong>specialized focus</strong> (e.g., 3D modeling for 3D printing, optimizing 3D models for games, VR or AR, etc.).</p>
-                    <p><a href="mailto: projeto.alfobre@gmail.com">Get in touch with us</a> and let's <strong>design a tailored training course or workshop</strong>.</p>
+                  <div class="col s12 l6">
+                    <p>Formação na utilização de <strong>Software Livre e Open Source</strong> para <strong>modelação</strong> e <strong>animação 3D</strong>. As duas áreas podem ser consideradas isoladamente ou de modo integrado, enquanto módulos de um curso de âmbito mais amplo.</p>
+                    <p>As ações de formação podem ser de <strong>iniciação e carácter generalista</strong> ou com <strong>enfoque especializado</strong> (ex. edição de modelos 3D obtidos por fotogrametria, otimização para impressão 3D, otimização para Realidade Virtal e Realidade Aumentada, etc.).</p>
+                    <p><a href="mailto: projeto.alfobre@gmail.com">Contacte-nos</a> para <strong>desenharmos uma ação de formação à medida</strong>.</p>
+<!--
+                    <p>Veja as ações de formação disponíveis ou <a href="mailto: projeto.alfobre@gmail.com">contacte-nos</a> para <strong>desenharmos uma ação de formação à medida</strong>.</p>
+                    <ul>
+                      <li><i class="material-icons">file_download</i> <a target="_blank" href="pdf/imagem-3d.pdf">Imagem 3d – formação de nível inicial</a></li>
+                    </ul>
+-->                    
                   </div>
-                  <div class="col s12 m5 l5 offset-l1 right">
-                    <img class="responsive-img border-top-round border-bottom-round" src="../img/formacao/imagem3d/1.jpg"/>
+                  <div class="col s12 l6">
+                    <img class="right responsive-img border-top-round border-bottom-round" src="img/formacao/imagem3d/1.jpg"/>
                   </div>                   
                 </div>
-                <div class="modal-footer">
-                  <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-              </div>                
+		      	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
               </div>
           </div>
         </div>
@@ -532,33 +551,40 @@
             <!-- Modal Trigger -->
               <a class="waves-effect waves-light modal-trigger" href="#modal-formacao-mapassig">
                 <div class="link-img-card">
-                  <img class="" src="../img/formacao/sig/cover.jpg" />
+                  <img class="" src="img/formacao/sig/cover.jpg" />
                 </div>
                 <div class="">
-                  <span class="link-img-card-title truncate">Maps & GIS</span>
+                  <span class="link-img-card-title truncate">Mapas e SIG</span>
                 </div>
               </a>
             <!-- Modal Structure -->
-              <div id="modal-formacao-mapassig" class="modal modal-large border-top-round border-bottom-round">
+              <div id="modal-formacao-mapassig" class="modal modal-large">
                 <div class="modal-closing">
                   <a href="#!" class="modal-close waves-effect waves-black btn-flat">  <i class="material-icons ">close</i></a>
                 </div>
                 <div class="modal-content">
                   <div class="col s12">
-                    <h4>Maps & GIS</h4>
+                    <h4>Mapas e SIG</h4>
                   </div>
-                  <div class="col s12 m7 l6">
-                    <p>Training in the use of <strong>Free and Open Source Software</strong> for <strong>cartography (map making)</strong> and <strong>Geographic Information Systems (GIS)</strong>.</p>
-                    <p>Training courses and workshops can be <strong>introductory and generalist</strong> or have a <strong>specialized focus</strong> (e.g., webmapping, GIS for heritage or archaeology, etc.).</p>
-                    <p><a href="mailto: projeto.alfobre@gmail.com">Get in touch with us</a> and let's <strong>design a tailored training course or workshop</strong>.</p>
+                  <div class="col s12 l6">
+                    <p>Formação na utilização de <strong>Software Livre e Open Source</strong> para <strong>criação de mapas e Sistemas de Informação Geográfica (SIG)</strong>.</p>
+                    <p>As ações de formação podem ser de <strong>iniciação e carácter generalista</strong> ou com <strong>enfoque especializado</strong> (ex. criação de mapas para web, utilização de SIG na área do património ou arqueologia, etc.).</p>
+                    <p><a href="mailto: projeto.alfobre@gmail.com">Contacte-nos</a> para <strong>desenharmos uma ação de formação à medida</strong>.</p>
+<!--
+                    <p>Veja as ações de formação disponíveis ou <a href="mailto: projeto.alfobre@gmail.com">contacte-nos</a> para <strong>desenharmos uma ação de formação à medida</strong>.</p>  
+                    <ul>
+                      <li><i class="material-icons">file_download</i> <a target="_blank" href="pdf/criacao_mapas_online.pdf">Criação de mapas online – formação de nível inicial</a></li>
+                      <li><i class="material-icons">file_download</i> <a target="_blank" href="pdf/sig_para_patrimonio.pdf">SIG para património – formação de nível inicial</a></li>
+                    </ul>
+-->                    
                   </div>
-                  <div class="col s12 m5 l5 offset-l1 right">
-                    <img class="responsive-img border-top-round border-bottom-round" src="../img/formacao/sig/1.jpg"/>
+                  <div class="col s12 l6">
+                    <img class="right responsive-img border-top-round border-bottom-round" src="img/formacao/sig/1.jpg"/>
                   </div>                   
                 </div>
-                <div class="modal-footer">
-                  <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-              </div>                
+		      	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
               </div>
           </div>
         </div>
@@ -570,10 +596,10 @@
           <!-- Modal Trigger -->
             <a class="waves-effect waves-light modal-trigger" href="#modal-formacao-imagem2d">
               <div class="link-img-card">
-                <img class="" src="../img/formacao/imagem2d/cover.jpg" />
+                <img class="" src="img/formacao/imagem2d/cover.jpg" />
               </div>
               <div class="">
-                <span class="link-img-card-title truncate">2D Image</span>
+                <span class="link-img-card-title truncate">Imagem 2D</span>
               </div>
             </a>
           <!-- Modal Structure -->
@@ -583,20 +609,20 @@
               </div>
               <div class="modal-content ">
                 <div class="col s12">
-                  <h4>2D Image</h4>
+                  <h4>Imagem 2D</h4>
                 </div>
-                <div class="col s12 m7 l6">
-                  <p>Training in the use of <strong>Free and Open Source Software</strong> for <strong>vector drawing</strong>, <strong>raster image editing</strong> (including photographs), and <strong>image databases and metadata</strong>. The three areas can operate as standalone courses or as modules within a broader course.</p>
-                  <p>Training courses and workshops can be <strong>introductory and generalist</strong> or have a <strong>specialized focus</strong></p>
-                  <p><a href="mailto: projeto.alfobre@gmail.com">Get in touch with us</a> and let's <strong>design a tailored training course or workshop</strong>.</p>
+                <div class="col s12 l6">
+                  <p>Formação na Utilização de <strong>Software Livre e Open Source</strong> em três áreas: <strong>desenho vetorial, edição de imagens raster</strong> (inclui fotografias) e <strong>gestão de bancos de imagens e metadados</strong>. As três áreas podem funcionar como cursos independentes ou como módulos de um curso de âmbito mais amplo.</p>
+                  <p>As ações de formação podem ser de <strong>iniciação e carácter generalista</strong>, ou com <strong>enfoque especializado</strong>.</p>
+                  <p><a href="mailto: projeto.alfobre@gmail.com">Contacte-nos</a> para <strong>desenharmos uma ação de formação à medida</strong>.</p>
                 </div>
-                <div class="col s12 m5 l5 offset-l1 right">
-                  <img class="responsive-img border-top-round border-bottom-round" src="../img/formacao/imagem2d/1.jpg"/>
+                <div class="col s12 l6">
+                  <img class="right responsive-img border-top-round border-bottom-round" src="img/formacao/imagem2d/1.jpg"/>
                 </div>                   
               </div>
-              <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
-            </div>              
+		    	<div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+	</div>
             </div>
         </div>
       </div>
@@ -617,7 +643,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="../img/cards/background_5.jpg" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="img/cards/background_5.jpg" alt="Unsplashed background img 2"></div>
 </div>
 
 <!-- projetos -->
@@ -626,7 +652,7 @@
     <div class="section">
       <div class="row">
         <div class="col s12">
-          <h2 class="section-title">Projects</h2>
+          <h2 class="section-title">Projetos e recursos</h2>
         </div>
       </div>
 
@@ -636,16 +662,16 @@
         <div class="col s12 m6 l4">
         <div class="card medium sticky-action border-top-round border-bottom-round">
           <div class="border-top-round card-image waves-effect waves-block waves-light">
-            <img class="activator" src="../img/a-geocat.jpg">
+            <img class="activator" src="img/a-geocat.jpg">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">A-GeoCat<i class="material-icons right">more_vert</i></span>
-            <p>Open geospatial data</p>
+            <p>Dados geoespaciais abertos</p>
           </div>
           <div class="card-action border-bottom-round"><a href="https://a-geocat.alfobre.com/" target="_blank">A-GeoCat</a></div>
           <div class="card-reveal border-top-round">
             <span class="card-title grey-text text-darken-4">A-GeoCat<i class="material-icons right">close</i></span>
-            <p>Open geospatial data catalog developed and maintained by the Alfobre team. The data is shared under very permissive licenses.</p>
+            <p>Catálogo de dados geoespaciais abertos produzidos pela equipa do Alfobre. Os dados são partilhados com licença que possibilita qualquer tipo de utilização.</p>
           </div>
         </div>
         </div>
@@ -655,16 +681,16 @@
         <div class="col s12 m6 l4">
           <div class="card medium sticky-action border-top-round border-bottom-round">
             <div class="border-top-round card-image waves-effect waves-block waves-light">
-              <img class="activator" src="../img/toolkits-digitais.jpg">
+              <img class="activator" src="img/toolkits-digitais.jpg">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Digital Toolkits<i class="material-icons right">more_vert</i></span>
-              <p>List of digital resources</p>
+              <span class="card-title activator grey-text text-darken-4">Toolkits digitais<i class="material-icons right">more_vert</i></span>
+              <p>Listas de recursos digitais</p>
             </div>
             <div class="card-action border-bottom-round"><a href="https://www.zotero.org/groups/5344707/a-dtch_digital_toolkit_for_cultural_heritage/library" target="_blank">A-DTCH</a>              <a href="https://www.zotero.org/groups/5250234/a-dtac__alfobre_digital_toolkit_for_arts__creativity/library" target="_blank">A-DTAC</a> <a href="https://www.zotero.org/groups/5249909/a-dtgc__alfobre_digital_toolkit_for_gis__cartography/library" target="_blank">A-DTGC</a></div>
             <div class="card-reveal border-top-round">
-              <span class="card-title grey-text text-darken-4">Digital Toolkits<i class="material-icons right">close</i></span>
-              <p>Lists of relevant web resources for  Cultural Heritage (A-DTCH), Arts and Creativity (A-DTAC), GIS and Cartography (A-DTGC) fields. Resources include software, data, bibliography, organizations, etc.</p>             
+              <span class="card-title grey-text text-darken-4">Toolkits digitais<i class="material-icons right">close</i></span>
+              <p>Listas de recursos web relevantes nas áreas do Património Cultural (A-DTCH), Artes e Criatividade (A-DTAC), SIG e Cartografia (A-DTGC). Os recursos incluem software, dados, bibliografia, organizações, etc.</p>
             </div>
           </div>
         </div>
@@ -674,37 +700,36 @@
         <div class="col s12 m6 l4">
           <div class="card medium sticky-action border-top-round border-bottom-round">
             <div class="border-top-round card-image waves-effect waves-block waves-light">
-              <img class="activator" src="../img/mapoteca.jpg">
+              <img class="activator" src="img/mapoteca.jpg">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">A-Mapoteca<i class="material-icons right">more_vert</i></span>
-              <p>Map catalog</p>
+              <p>Catálogo de mapas</p>
             </div>
             <div class="card-action border-bottom-round"><a href="https://a-mapoteca.alfobre.com/" target="_blank">A-Mapoteca</a></div>
             <div class="card-reveal border-top-round">
               <span class="card-title grey-text text-darken-4">A-Mapoteca<i class="material-icons right">close</i></span>
-              <p>A collection of maps produced by the Alfobre team. Maps are shared under very permissive licenses.</p>             
+              <p>Coleção de mapas produzidos pela equipa do Alfobre. Os mapas são partilhados com licença que possibilita qualquer tipo de utilização.</p>
             </div>
           </div>
           </div>
           <!-- fim de mapoteca -->  
 
 
-
         <!-- autocolantes -->
         <div class="col s12 m6 l4">
           <div class="card medium sticky-action border-top-round border-bottom-round">
             <div class="border-top-round card-image waves-effect waves-block waves-light">
-              <img class="activator" src="../img/autocolantes.jpg">
+              <img class="activator" src="img/autocolantes.jpg">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">April Stickers<i class="material-icons right">more_vert</i></span>
-              <p>Revolution Stickers</p>
+              <span class="card-title activator grey-text text-darken-4">Autocolantes de Abril<i class="material-icons right">more_vert</i></span>
+              <p>Autocolantes da Revolução</p>
             </div>
-            <div class="card-action border-bottom-round"><a href="https://projetoalfobre.github.io/autocolantes-de-abril/" target="_blank">April Stickers</a></div>
+            <div class="card-action border-bottom-round"><a href="https://projetoalfobre.github.io/autocolantes-de-abril/" target="_blank">Autocolantes de Abril</a></div>
             <div class="card-reveal border-top-round">
-              <span class="card-title grey-text text-darken-4">April Stickers<i class="material-icons right">close</i></span>
-              <p>Gallery of political stickers related to April 25, 1974 (portuguese revolution) and subsequent years. Images are available free of charge and without restrictions.</p>
+              <span class="card-title grey-text text-darken-4">Autocolantes de Abril<i class="material-icons right">close</i></span>
+              <p>Galeria com imagens de autocolantes políticos relacionados com o 25 de Abril de 1974 e anos seguintes. Imagens disponibilizadas gratuitamente e sem restrições.</p>
             </div>
           </div>
           </div>
@@ -714,16 +739,16 @@
         <div class="col s12 m6 l4">
           <div class="card medium sticky-action border-top-round border-bottom-round">
             <div class="border-top-round card-image waves-effect waves-block waves-light">
-              <img class="activator" src="../img/dcg.jpg">
+              <img class="activator" src="img/dcg.jpg">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">A-DCG<i class="material-icons right">more_vert</i></span>
-              <p> Dublin Core Generator</p>
+              <p>Gerador de Dublin Core</p>
             </div>
             <div class="card-action border-bottom-round"><a href="https://projetoalfobre.github.io/a-dcg/" target="_blank">A-DCG</a></div>
             <div class="card-reveal border-top-round">
               <span class="card-title grey-text text-darken-4">A-DCG<i class="material-icons right">close</i></span>
-              <p>A-DCG (Alfobre Dublin Core Generator) is a web tool project developed to support the creation of Dublin Core (DC) metadata.</p>
+              <p>O A-DCG (Alfobre Dublin Core Generator) é uma ferramenta web desenvolvida para facilitar a criação de metadados Dublin Core.</p>
             </div>
           </div>
           </div>
@@ -733,21 +758,20 @@
         <div class="col s12 m6 l4">
           <div class="card medium sticky-action border-top-round border-bottom-round">
             <div class="border-top-round card-image waves-effect waves-block waves-light">
-              <img class="activator" src="../img/gispicks.jpg">
+              <img class="activator" src="img/gispicks.jpg">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">A-GISpicks<i class="material-icons right">more_vert</i></span>
-              <p>GIS and mapping bookmarks</p>
+              <p>Lista de recursos favoritos</p>
             </div>
             <div class="card-action border-bottom-round"><a href="https://projetoalfobre.github.io/a-gispicks/" target="_blank">A-GISpicks</a></div>
             <div class="card-reveal border-top-round">
               <span class="card-title grey-text text-darken-4">A-GISpicks<i class="material-icons right">close</i></span>
-              <p>A curated list of useful websites for GIS and mapping projects. It's our list of favorites or resources most used in our projects.</p>
+              <p>Lista de endereços web de recursos úteis para projetos de SIG e cartografia. Corresponde à nossa lista de favoritos ou à lista de recursos mais utilizados nos nossos projetos.</p>
             </div>
           </div>
           </div>
           <!-- fim de gispicks  -->   
-
 
       </div>
 
@@ -764,7 +788,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="../img/cards/background_6.jpg" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="img/cards/background_6.jpg" alt="Unsplashed background img 2"></div>
 </div>
 
 <!-- contatos -->
@@ -773,23 +797,24 @@
     <div class="section">
       <div class="row">
         <div class="col s12">
-          <h3 class="section-title">Contacts</h3>
+          <h3 class="section-title">Os nossos contactos</h3>
         </div>
       </div>
       <div class="row">
         <div class="col s12 m6">
-           <p class="flow-text">The Alfobre team can be contacted in various ways. Send us an email, and we promise it will indeed be read by a human being who will respond as soon as possible ;)</p>      
-           <p class="flow-text">In addition to the contact addresses, we are present on various online networks.</p> 
+           <p class="flow-text">A equipa do Alfobre pode ser contactada de várias formas. Envie um email e prometemos que será mesmo lido por uma pessoa que responderá logo que possível ;)</p>
+
+           <p class="flow-text">Para além dos endereços de contacto, estamos presentes em várias redes online.</p> 
                       <div class="row">
                         <ul class="linkscontactos">
                           <li><a  href="https://www.facebook.com/projeto.alfobre" target="_blank" class="tooltipped hoverable btn-floating btn-large white " style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="Facebook">
-                              <img src="../img/icons/facebook.png" class="" style="width: 80px;height: 80px;"></a></li>
+                              <img src="img/icons/facebook.png" class="" style="width: 80px;height: 80px;"></a></li>
                           <li><a  href="https://www.instagram.com/projeto.alfobre/" target="_blank" class="tooltipped hoverable btn-floating btn-large waves-effect waves-light white" style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="Instagram">
-                              <img src="../img/icons/instagram.png" class="" style="width: 80px;height: 80px;"></a></li>
+                              <img src="img/icons/instagram.png" class="" style="width: 80px;height: 80px;"></a></li>
                             <li><a  href="https://github.com/projetoalfobre/" target="_blank" class="tooltipped hoverable btn-floating btn-large white " style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="GitHub">
-                                <img src="../img/icons/github.png" class="" style="width: 80px;height: 80px;"></a></li>
+                                <img src="img/icons/github.png" class="" style="width: 80px;height: 80px;"></a></li>
                             <li><a  href="https://sketchfab.com/projeto.alfobre" target="_blank" class="tooltipped hoverable btn-floating btn-large waves-effect waves-light white" style="width: 80px;height: 80px;" data-position="top" data-delay="50" data-tooltip="Sketchfab">
-                                <img src="../img/icons/sketchfab.png" class="" style="width: 80px;height: 80px;"></a></li>
+                                <img src="img/icons/sketchfab.png" class="" style="width: 80px;height: 80px;"></a></li>
                           </ul>
                       </div>
                       
@@ -801,7 +826,7 @@
             Portugal
             </p>
             <p class=" breakmail">
-              <span class="project-info">Phone</span> +351  968 853 458 <br>
+              <span class="project-info">Telefone</span>  968 853 458 <br>
               <span class="project-info offset-s6">Email</span>  projeto.alfobre@gmail.com<br>
             </p>
         </div>
@@ -821,7 +846,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="../img/cards/background_7.jpg" alt="Roman capitel"></div>
+  <div class="parallax"><img src="img/cards/background_7.jpg" alt="Roman capitel"></div>
 </div>
 
   <footer class="" >
@@ -841,10 +866,10 @@
   </footer>
 
   <!--  Scripts-->
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/materialize.js"></script>
-  <script src="../js/scrollreveal.min.js"></script>
-    <script src="../js/init.js"></script>
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+    <script src="js/init.js"></script>
 
 
 
