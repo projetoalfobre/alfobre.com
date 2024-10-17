@@ -57,3 +57,12 @@ img.responsiveimg
 .modal-large { width: 85% !important ; padding-bottom: 2em ; max-width: 1100px;}
 
 /* .modal-large { width: 85% !important ; height: 85% !important ; max-width: 1100px;} */
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+  color: #90caf9;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  font-weight: 400;
+  color: #001527;
+}
